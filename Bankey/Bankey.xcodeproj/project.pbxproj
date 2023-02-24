@@ -21,6 +21,7 @@
 		522DE2D029A4ED2E0019C458 /* AccountSummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522DE2CF29A4ED2E0019C458 /* AccountSummaryViewController.swift */; };
 		522DE2D229A4EE970019C458 /* AccountSummaryHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522DE2D129A4EE970019C458 /* AccountSummaryHeaderView.swift */; };
 		522DE2D429A4EEB20019C458 /* AccountSummaryHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 522DE2D329A4EEB20019C458 /* AccountSummaryHeaderView.xib */; };
+		525D982A29A8AE7000BADF81 /* ShakeBellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525D982929A8AE7000BADF81 /* ShakeBellView.swift */; };
 		52BD4FC129A4FA5100A8265A /* AccountSummaryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BD4FC029A4FA5100A8265A /* AccountSummaryCell.swift */; };
 		52BD4FC329A5124600A8265A /* Decimal+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BD4FC229A5124600A8265A /* Decimal+Utils.swift */; };
 		52BD4FC529A5126600A8265A /* CurrencyFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BD4FC429A5126600A8265A /* CurrencyFormatter.swift */; };
@@ -56,6 +57,7 @@
 		522DE2CF29A4ED2E0019C458 /* AccountSummaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSummaryViewController.swift; sourceTree = "<group>"; };
 		522DE2D129A4EE970019C458 /* AccountSummaryHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSummaryHeaderView.swift; sourceTree = "<group>"; };
 		522DE2D329A4EEB20019C458 /* AccountSummaryHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountSummaryHeaderView.xib; sourceTree = "<group>"; };
+		525D982929A8AE7000BADF81 /* ShakeBellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeBellView.swift; sourceTree = "<group>"; };
 		52BD4FC029A4FA5100A8265A /* AccountSummaryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSummaryCell.swift; sourceTree = "<group>"; };
 		52BD4FC229A5124600A8265A /* Decimal+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Decimal+Utils.swift"; sourceTree = "<group>"; };
 		52BD4FC429A5126600A8265A /* CurrencyFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyFormatter.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 			children = (
 				522DE2A429A3E5CC0019C458 /* AppDelegate.swift */,
 				522DE2CC29A426DC0019C458 /* MainViewController.swift */,
+				525D982829A8AE6500BADF81 /* Components */,
 				522DE2BC29A3EA990019C458 /* Login */,
 				522DE2BF29A404920019C458 /* Onboarding */,
 				522DE2CE29A4ED160019C458 /* AccountSummary */,
@@ -165,6 +168,14 @@
 				52BD4FBF29A4FA3500A8265A /* Cells */,
 			);
 			path = AccountSummary;
+			sourceTree = "<group>";
+		};
+		525D982829A8AE6500BADF81 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				525D982929A8AE7000BADF81 /* ShakeBellView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 		52BD4FBE29A4FA2300A8265A /* Header */ = {
@@ -301,6 +312,7 @@
 				52C224F329A53C16005E08F7 /* UITextField+SecureToggle.swift in Sources */,
 				522DE2C629A41C9F0019C458 /* DummyViewController.swift in Sources */,
 				52BD4FC529A5126600A8265A /* CurrencyFormatter.swift in Sources */,
+				525D982A29A8AE7000BADF81 /* ShakeBellView.swift in Sources */,
 				522DE2A929A3E5CC0019C458 /* LoginViewController.swift in Sources */,
 				52C224F129A53904005E08F7 /* NSNotificationName.swift in Sources */,
 				52BD4FC329A5124600A8265A /* Decimal+Utils.swift in Sources */,
