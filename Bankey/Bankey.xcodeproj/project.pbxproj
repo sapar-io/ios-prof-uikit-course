@@ -22,6 +22,8 @@
 		522DE2D229A4EE970019C458 /* AccountSummaryHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522DE2D129A4EE970019C458 /* AccountSummaryHeaderView.swift */; };
 		522DE2D429A4EEB20019C458 /* AccountSummaryHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 522DE2D329A4EEB20019C458 /* AccountSummaryHeaderView.xib */; };
 		525D982A29A8AE7000BADF81 /* ShakeBellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525D982929A8AE7000BADF81 /* ShakeBellView.swift */; };
+		5262FB7129AA2963001ADE5E /* Date+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262FB7029AA2963001ADE5E /* Date+Utils.swift */; };
+		5262FB7329AA2A33001ADE5E /* AccountSummaryViewController+Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262FB7229AA2A33001ADE5E /* AccountSummaryViewController+Networking.swift */; };
 		52BD4FC129A4FA5100A8265A /* AccountSummaryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BD4FC029A4FA5100A8265A /* AccountSummaryCell.swift */; };
 		52BD4FC329A5124600A8265A /* Decimal+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BD4FC229A5124600A8265A /* Decimal+Utils.swift */; };
 		52BD4FC529A5126600A8265A /* CurrencyFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BD4FC429A5126600A8265A /* CurrencyFormatter.swift */; };
@@ -58,6 +60,8 @@
 		522DE2D129A4EE970019C458 /* AccountSummaryHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSummaryHeaderView.swift; sourceTree = "<group>"; };
 		522DE2D329A4EEB20019C458 /* AccountSummaryHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountSummaryHeaderView.xib; sourceTree = "<group>"; };
 		525D982929A8AE7000BADF81 /* ShakeBellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeBellView.swift; sourceTree = "<group>"; };
+		5262FB7029AA2963001ADE5E /* Date+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Utils.swift"; sourceTree = "<group>"; };
+		5262FB7229AA2A33001ADE5E /* AccountSummaryViewController+Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AccountSummaryViewController+Networking.swift"; sourceTree = "<group>"; };
 		52BD4FC029A4FA5100A8265A /* AccountSummaryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSummaryCell.swift; sourceTree = "<group>"; };
 		52BD4FC229A5124600A8265A /* Decimal+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Decimal+Utils.swift"; sourceTree = "<group>"; };
 		52BD4FC429A5126600A8265A /* CurrencyFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyFormatter.swift; sourceTree = "<group>"; };
@@ -156,6 +160,7 @@
 				522DE2C729A4217A0019C458 /* LocalState.swift */,
 				52BD4FC429A5126600A8265A /* CurrencyFormatter.swift */,
 				52C224F029A53904005E08F7 /* NSNotificationName.swift */,
+				5262FB7029AA2963001ADE5E /* Date+Utils.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -164,6 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				522DE2CF29A4ED2E0019C458 /* AccountSummaryViewController.swift */,
+				5262FB7229AA2A33001ADE5E /* AccountSummaryViewController+Networking.swift */,
 				52BD4FBE29A4FA2300A8265A /* Header */,
 				52BD4FBF29A4FA3500A8265A /* Cells */,
 			);
@@ -306,6 +312,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				522DE2CB29A425FE0019C458 /* UIViewController+Utils.swift in Sources */,
+				5262FB7129AA2963001ADE5E /* Date+Utils.swift in Sources */,
 				522DE2BE29A3EAB50019C458 /* LoginView.swift in Sources */,
 				522DE2C829A4217A0019C458 /* LocalState.swift in Sources */,
 				522DE2D229A4EE970019C458 /* AccountSummaryHeaderView.swift in Sources */,
@@ -322,6 +329,7 @@
 				522DE2D029A4ED2E0019C458 /* AccountSummaryViewController.swift in Sources */,
 				522DE2A529A3E5CC0019C458 /* AppDelegate.swift in Sources */,
 				522DE2C129A404C40019C458 /* OnboardingContainerViewController.swift in Sources */,
+				5262FB7329AA2A33001ADE5E /* AccountSummaryViewController+Networking.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
