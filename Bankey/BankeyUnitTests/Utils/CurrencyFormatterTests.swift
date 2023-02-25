@@ -25,7 +25,7 @@ class Test: XCTestCase {
     }
     
     func testDollarsFormatted() throws {
-        let locale = Locale.current
+        let locale = Locale(identifier: "en_US")
         let currencySymbol = locale.currencySymbol!
         
         let result = formatter.dollarsFormatted(929466)
@@ -33,7 +33,7 @@ class Test: XCTestCase {
     }
     
     func testZeroDollarsFormatted() throws {
-        let locale = Locale.current
+        let locale = Locale(identifier: "en_US")
         let currencySymbol = locale.currencySymbol!
         
         let result = formatter.dollarsFormatted(0)

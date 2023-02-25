@@ -24,6 +24,8 @@
 		525D982A29A8AE7000BADF81 /* ShakeBellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525D982929A8AE7000BADF81 /* ShakeBellView.swift */; };
 		5262FB7129AA2963001ADE5E /* Date+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262FB7029AA2963001ADE5E /* Date+Utils.swift */; };
 		5262FB7329AA2A33001ADE5E /* AccountSummaryViewController+Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262FB7229AA2A33001ADE5E /* AccountSummaryViewController+Networking.swift */; };
+		5262FB7729AA53B9001ADE5E /* ProfileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262FB7629AA53B9001ADE5E /* ProfileTests.swift */; };
+		5262FB7929AA55D9001ADE5E /* AccountTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262FB7829AA55D9001ADE5E /* AccountTests.swift */; };
 		52BD4FC129A4FA5100A8265A /* AccountSummaryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BD4FC029A4FA5100A8265A /* AccountSummaryCell.swift */; };
 		52BD4FC329A5124600A8265A /* Decimal+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BD4FC229A5124600A8265A /* Decimal+Utils.swift */; };
 		52BD4FC529A5126600A8265A /* CurrencyFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BD4FC429A5126600A8265A /* CurrencyFormatter.swift */; };
@@ -62,6 +64,8 @@
 		525D982929A8AE7000BADF81 /* ShakeBellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeBellView.swift; sourceTree = "<group>"; };
 		5262FB7029AA2963001ADE5E /* Date+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Utils.swift"; sourceTree = "<group>"; };
 		5262FB7229AA2A33001ADE5E /* AccountSummaryViewController+Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AccountSummaryViewController+Networking.swift"; sourceTree = "<group>"; };
+		5262FB7629AA53B9001ADE5E /* ProfileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTests.swift; sourceTree = "<group>"; };
+		5262FB7829AA55D9001ADE5E /* AccountTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountTests.swift; sourceTree = "<group>"; };
 		52BD4FC029A4FA5100A8265A /* AccountSummaryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSummaryCell.swift; sourceTree = "<group>"; };
 		52BD4FC229A5124600A8265A /* Decimal+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Decimal+Utils.swift"; sourceTree = "<group>"; };
 		52BD4FC429A5126600A8265A /* CurrencyFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyFormatter.swift; sourceTree = "<group>"; };
@@ -184,6 +188,23 @@
 			path = Components;
 			sourceTree = "<group>";
 		};
+		5262FB7429AA53A3001ADE5E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				52BD4FD329A519B400A8265A /* CurrencyFormatterTests.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		5262FB7529AA53AE001ADE5E /* AccountSummary */ = {
+			isa = PBXGroup;
+			children = (
+				5262FB7629AA53B9001ADE5E /* ProfileTests.swift */,
+				5262FB7829AA55D9001ADE5E /* AccountTests.swift */,
+			);
+			path = AccountSummary;
+			sourceTree = "<group>";
+		};
 		52BD4FBE29A4FA2300A8265A /* Header */ = {
 			isa = PBXGroup;
 			children = (
@@ -204,7 +225,8 @@
 		52BD4FCB29A518E500A8265A /* BankeyUnitTests */ = {
 			isa = PBXGroup;
 			children = (
-				52BD4FD329A519B400A8265A /* CurrencyFormatterTests.swift */,
+				5262FB7529AA53AE001ADE5E /* AccountSummary */,
+				5262FB7429AA53A3001ADE5E /* Utils */,
 			);
 			path = BankeyUnitTests;
 			sourceTree = "<group>";
@@ -338,6 +360,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				52BD4FD429A519B400A8265A /* CurrencyFormatterTests.swift in Sources */,
+				5262FB7929AA55D9001ADE5E /* AccountTests.swift in Sources */,
+				5262FB7729AA53B9001ADE5E /* ProfileTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
